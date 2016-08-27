@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apnatutorials.androidgridlayout.MainActivity">
+
+    <android.support.v7.widget.GridLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:columnCount="2">
+
+        <ImageView
+            android:id="@+id/heritage1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage1_min"
+            app:layout_columnWeight="1" />
+
+        <ImageView
+            android:id="@+id/heritage2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage2_min"
+            app:layout_columnWeight="1" />
+
+        <ImageView
+            android:id="@+id/heritage3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage3_min"
+            app:layout_columnWeight="1" />
+
+        <ImageView
+            android:id="@+id/heritage4"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage4_min"
+            app:layout_columnWeight="1" />
+
+        <ImageView
+            android:id="@+id/heritage5"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage5_min"
+            app:layout_columnWeight="1"
+
+            />
+
+        <ImageView
+            android:id="@+id/heritage6"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage6_min"
+            app:layout_columnWeight="1" />
+
+        <ImageView
+            android:id="@+id/heritage7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage7_min"
+            app:layout_columnSpan="2" />
+
+        <ImageView
+            android:id="@+id/heritage8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage7_min"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowSpan="2" />
+
+        <ImageView
+            android:id="@+id/heritage9"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage6_min"
+
+            app:layout_columnWeight="1"
+
+            />
+
+        <ImageView
+            android:id="@+id/heritage10"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_shape"
+            android:onClick="showImage"
+            android:src="@drawable/heritage6_min"
+
+            app:layout_columnWeight="1"
+
+            />
+    </android.support.v7.widget.GridLayout>
+</ScrollView>
